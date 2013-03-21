@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5624B27316FB99A40032B5E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5624B27216FB99A40032B5E6 /* main.cpp */; };
 		5624B27516FB99A40032B5E6 /* SimpleShaderCpp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5624B27416FB99A40032B5E6 /* SimpleShaderCpp.1 */; };
+		5624B27E16FB9CDC0032B5E6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5624B27D16FB9CDC0032B5E6 /* OpenGL.framework */; };
+		5624B28016FBCB470032B5E6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5624B27F16FBCB470032B5E6 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		5624B26E16FB99A40032B5E6 /* SimpleShaderCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleShaderCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		5624B27216FB99A40032B5E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5624B27416FB99A40032B5E6 /* SimpleShaderCpp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SimpleShaderCpp.1; sourceTree = "<group>"; };
+		5624B27B16FB99DA0032B5E6 /* shader_prog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shader_prog; sourceTree = "<group>"; };
+		5624B27C16FB9B190032B5E6 /* shader_prog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader_prog.h; sourceTree = "<group>"; };
+		5624B27D16FB9CDC0032B5E6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5624B27F16FBCB470032B5E6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5624B28016FBCB470032B5E6 /* GLUT.framework in Frameworks */,
+				5624B27E16FB9CDC0032B5E6 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 		5624B26316FB99A40032B5E6 = {
 			isa = PBXGroup;
 			children = (
+				5624B27F16FBCB470032B5E6 /* GLUT.framework */,
+				5624B27D16FB9CDC0032B5E6 /* OpenGL.framework */,
 				5624B27116FB99A40032B5E6 /* SimpleShaderCpp */,
 				5624B26F16FB99A40032B5E6 /* Products */,
 			);
@@ -61,7 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				5624B27216FB99A40032B5E6 /* main.cpp */,
+				5624B27C16FB9B190032B5E6 /* shader_prog.h */,
 				5624B27416FB99A40032B5E6 /* SimpleShaderCpp.1 */,
+				5624B27B16FB99DA0032B5E6 /* shader_prog */,
 			);
 			path = SimpleShaderCpp;
 			sourceTree = "<group>";
@@ -176,6 +188,7 @@
 		5624B27916FB99A40032B5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
