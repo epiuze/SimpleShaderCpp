@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5624B27316FB99A40032B5E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5624B27216FB99A40032B5E6 /* main.cpp */; };
-		5624B27516FB99A40032B5E6 /* SimpleShaderCpp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5624B27416FB99A40032B5E6 /* SimpleShaderCpp.1 */; };
 		5624B27E16FB9CDC0032B5E6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5624B27D16FB9CDC0032B5E6 /* OpenGL.framework */; };
 		5624B28016FBCB470032B5E6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5624B27F16FBCB470032B5E6 /* GLUT.framework */; };
+		9218052E16FBF85300A7CC2B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9218052D16FBF85300A7CC2B /* CoreFoundation.framework */; };
+		9218052F16FBF98500A7CC2B /* vwave.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218052916FBEEF300A7CC2B /* vwave.glsl */; };
+		9218053016FBF98900A7CC2B /* fPassThrough.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218052716FBEEF300A7CC2B /* fPassThrough.glsl */; };
+		9218053316FBFAE300A7CC2B /* nonphoto.c in Sources */ = {isa = PBXBuildFile; fileRef = 9218053216FBFAE300A7CC2B /* nonphoto.c */; };
+		9218053616FBFB0900A7CC2B /* vertex_shader.vp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218052816FBEEF300A7CC2B /* vertex_shader.vp */; };
+		9218053716FBFB1500A7CC2B /* vnonphoto.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */; };
+		9218053816FBFB1C00A7CC2B /* vPassThrough.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5624B26C16FB99A40032B5E6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
-				5624B27516FB99A40032B5E6 /* SimpleShaderCpp.1 in CopyFiles */,
+				9218052F16FBF98500A7CC2B /* vwave.glsl in CopyFiles */,
+				9218053716FBFB1500A7CC2B /* vnonphoto.glsl in CopyFiles */,
+				9218053816FBFB1C00A7CC2B /* vPassThrough.glsl in CopyFiles */,
+				9218053616FBFB0900A7CC2B /* vertex_shader.vp in CopyFiles */,
+				9218053016FBF98900A7CC2B /* fPassThrough.glsl in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -34,6 +43,15 @@
 		5624B27C16FB9B190032B5E6 /* shader_prog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader_prog.h; sourceTree = "<group>"; };
 		5624B27D16FB9CDC0032B5E6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		5624B27F16FBCB470032B5E6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		9218051616FBEB9A00A7CC2B /* wave.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wave.c; sourceTree = "<group>"; };
+		9218052616FBEEF200A7CC2B /* color_shader.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = color_shader.fp; sourceTree = "<group>"; };
+		9218052716FBEEF300A7CC2B /* fPassThrough.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fPassThrough.glsl; sourceTree = "<group>"; };
+		9218052816FBEEF300A7CC2B /* vertex_shader.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex_shader.vp; sourceTree = "<group>"; };
+		9218052916FBEEF300A7CC2B /* vwave.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vwave.glsl; sourceTree = "<group>"; };
+		9218052D16FBF85300A7CC2B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9218053216FBFAE300A7CC2B /* nonphoto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nonphoto.c; sourceTree = "<group>"; };
+		9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vnonphoto.glsl; sourceTree = "<group>"; };
+		9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vPassThrough.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9218052E16FBF85300A7CC2B /* CoreFoundation.framework in Frameworks */,
 				5624B28016FBCB470032B5E6 /* GLUT.framework in Frameworks */,
 				5624B27E16FB9CDC0032B5E6 /* OpenGL.framework in Frameworks */,
 			);
@@ -52,6 +71,7 @@
 		5624B26316FB99A40032B5E6 = {
 			isa = PBXGroup;
 			children = (
+				9218052D16FBF85300A7CC2B /* CoreFoundation.framework */,
 				5624B27F16FBCB470032B5E6 /* GLUT.framework */,
 				5624B27D16FB9CDC0032B5E6 /* OpenGL.framework */,
 				5624B27116FB99A40032B5E6 /* SimpleShaderCpp */,
@@ -70,12 +90,28 @@
 		5624B27116FB99A40032B5E6 /* SimpleShaderCpp */ = {
 			isa = PBXGroup;
 			children = (
+				9218053116FBFACC00A7CC2B /* Cartoon */,
 				5624B27216FB99A40032B5E6 /* main.cpp */,
+				9218052616FBEEF200A7CC2B /* color_shader.fp */,
+				9218052716FBEEF300A7CC2B /* fPassThrough.glsl */,
+				9218052816FBEEF300A7CC2B /* vertex_shader.vp */,
+				9218052916FBEEF300A7CC2B /* vwave.glsl */,
+				9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */,
+				9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */,
+				9218051616FBEB9A00A7CC2B /* wave.c */,
 				5624B27C16FB9B190032B5E6 /* shader_prog.h */,
 				5624B27416FB99A40032B5E6 /* SimpleShaderCpp.1 */,
 				5624B27B16FB99DA0032B5E6 /* shader_prog */,
 			);
 			path = SimpleShaderCpp;
+			sourceTree = "<group>";
+		};
+		9218053116FBFACC00A7CC2B /* Cartoon */ = {
+			isa = PBXGroup;
+			children = (
+				9218053216FBFAE300A7CC2B /* nonphoto.c */,
+			);
+			name = Cartoon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5624B27316FB99A40032B5E6 /* main.cpp in Sources */,
+				9218053316FBFAE300A7CC2B /* nonphoto.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +255,7 @@
 				5624B27A16FB99A40032B5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

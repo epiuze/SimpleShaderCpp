@@ -1,0 +1,99 @@
+TSimpleShaderCpp
+v5
+r1
+cCheck dependencies
+cCompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000513D34880000000000080504
+t1362965640
+s525572
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c00000000513D34890000000000014030
+t1362965641
+s81968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c00000000513D3489000000000000586B
+t1362965641
+s22635
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000513D348A000000000000ADFC
+t1362965642
+s44540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c00000000513D348F0000000000004523
+t1362965647
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c00000000513D348F0000000000003089
+t1362965647
+s12425
+
+N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/SimpleShaderCpp.LinkFileList
+c00000000514BC18E00000000000000C4
+t1363919246
+s196
+
+N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.o
+t2
+s0
+
+N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp
+t2
+s0
+
+N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c
+c00000000514BC1140000000000001AC8
+t1363919124
+s6856
+i<stdio.h>
+i<stdlib.h>
+i<GLUT/glut.h>
+i<GL/glew.h>
+i<GL/glut.h>
+
+CBuild AST from /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies19ae360ef9fbb641^718f390ef9fbb641^---0#1#0#--18"Check dependencies36"CF822A05-F5EB-4044-A230-6CF242787E9B-
+
+CCompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s385612046.230173
+e385612046.397965
+r1
+xCompileC
+xDerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.o
+x/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c:236:9: warning: implicit declaration of function '_NSGetExecutablePath' is invalid in C99 [-Wimplicit-function-declaration]
+o    if (_NSGetExecutablePath(path, &size) == 0)
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c22183b0ef9fbb641^0401660ef9fbb641^-295"/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c:236:9: warning: implicit declaration of function '_NSGetExecutablePath' is invalid in C99 [-Wimplicit-function-declaration]    if (_NSGetExecutablePath(path, &size) == 0)        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@73"Implicit declaration of function '_NSGetExecutablePath' is invalid in C99-385612046#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@107"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c0000000000000000^235#8#235#8#6012#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@107"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c0000000000000000^3654"CompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.o SimpleShaderCpp/wave.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-generated-files.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-own-target-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-all-target-headers.hmap -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-project-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources/x86_64 -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources -F/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -MMD -MT dependencies -MF /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.d --serialize-diagnostics /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.dia -c /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c -o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.o36"E07517E9-323E-43E8-A5DC-0E4CC4538C74-
+
+CLd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp normal x86_64
+s385612046.404420
+e385612046.463378
+r1
+xLd
+x/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCppbea2670ef9fbb641^5da6760ef9fbb641^---0#0#0#--1109"Ld DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp normal x86_64    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -F/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -filelist /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/SimpleShaderCpp.LinkFileList -mmacosx-version-min=10.7 -framework CoreFoundation -framework GLUT -framework OpenGL -o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp36"C2003288-E6FD-485A-AD6A-72B2C6F3C479-
+

@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "shader_prog.h"
+#include <fstream>
 
 const GLchar *vertex_shader[] = {
     "void main(void) {\n",
@@ -28,30 +29,44 @@ void init(void);
 void display();
 void changeSize(int w, int h);
 void processNormalKeys(unsigned char key, int x, int y);
+char* loadShaderSource(const char* filename);
 
-int main(int argc, char * argv[])
-{
-    //Initialise GLUT with command-line parameters.
-    glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-    glutInitWindowSize(500,500);
-    glutInitWindowPosition(100,100);
-    glutCreateWindow("Test OpenGL App with GLUT");
+//int main(int argc, char * argv[])
+//{
+//    //Initialise GLUT with command-line parameters.
+//    glutInit(&argc, argv);
+//    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+//    glutInitWindowSize(500,500);
+//    glutInitWindowPosition(100,100);
+//    glutCreateWindow("Test OpenGL App with GLUT");
+//    
+//    //Call init (initialise GLUT
+//    init();
+//    
+//    //Call "display" function
+//    glutDisplayFunc(display);
+//    
+//    glutReshapeFunc(changeSize);
+//    
+//    glutKeyboardFunc(processNormalKeys);
+//    
+//    //Enter the GLUT event loop
+//    glutMainLoop();
+//      
+//    return 0;
+//}
+
+char* loadShaderSource(const char* filename) {
+    std::ifstream t;
+    t.open(filename);      // open input file
+    t.seekg(0, std::ios::end);    // go to the end
+    long length = t.tellg();           // report location (this is the length)
+    t.seekg(0, std::ios::beg);    // go back to the beginning
+    char* buffer = new char[length];    // allocate memory for a buffer of appropriate dimension
+    t.read(buffer, length);       // read the whole file into the buffer
+    t.close();
     
-    //Call init (initialise GLUT
-    init();
-    
-    //Call "display" function
-    glutDisplayFunc(display);
-    
-    glutReshapeFunc(changeSize);
-    
-    glutKeyboardFunc(processNormalKeys);
-    
-    //Enter the GLUT event loop
-    glutMainLoop();
-    
-    return 0;
+    return buffer;
 }
 
 void processNormalKeys(unsigned char key, int x, int y) {
