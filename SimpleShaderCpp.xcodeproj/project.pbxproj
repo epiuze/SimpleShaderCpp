@@ -12,10 +12,15 @@
 		9218052E16FBF85300A7CC2B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9218052D16FBF85300A7CC2B /* CoreFoundation.framework */; };
 		9218052F16FBF98500A7CC2B /* vwave.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218052916FBEEF300A7CC2B /* vwave.glsl */; };
 		9218053016FBF98900A7CC2B /* fPassThrough.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218052716FBEEF300A7CC2B /* fPassThrough.glsl */; };
-		9218053316FBFAE300A7CC2B /* nonphoto.c in Sources */ = {isa = PBXBuildFile; fileRef = 9218053216FBFAE300A7CC2B /* nonphoto.c */; };
 		9218053616FBFB0900A7CC2B /* vertex_shader.vp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218052816FBEEF300A7CC2B /* vertex_shader.vp */; };
 		9218053716FBFB1500A7CC2B /* vnonphoto.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */; };
 		9218053816FBFB1C00A7CC2B /* vPassThrough.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */; };
+		928D622716FF62E100C35551 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 92AAFF2416FDE67300C1F985 /* mesh.c */; };
+		92AAFF2016FDE5A400C1F985 /* fD.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92AAFF1A16FDE4F000C1F985 /* fD.glsl */; };
+		92AAFF2116FDE5A900C1F985 /* vFragD.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92AAFF1916FDE4EB00C1F985 /* vFragD.glsl */; };
+		92AAFF2616FDE67D00C1F985 /* vmesh.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92AAFF2316FDE66D00C1F985 /* vmesh.glsl */; };
+		92AAFF2C16FDE75900C1F985 /* vBump.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92AAFF2B16FDE75600C1F985 /* vBump.glsl */; };
+		92AAFF2D16FDE75C00C1F985 /* fBump3.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92AAFF2A16FDE75600C1F985 /* fBump3.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +31,13 @@
 			dstSubfolderSpec = 7;
 			files = (
 				9218052F16FBF98500A7CC2B /* vwave.glsl in CopyFiles */,
+				92AAFF2C16FDE75900C1F985 /* vBump.glsl in CopyFiles */,
+				92AAFF2D16FDE75C00C1F985 /* fBump3.glsl in CopyFiles */,
+				92AAFF2616FDE67D00C1F985 /* vmesh.glsl in CopyFiles */,
 				9218053716FBFB1500A7CC2B /* vnonphoto.glsl in CopyFiles */,
+				92AAFF2016FDE5A400C1F985 /* fD.glsl in CopyFiles */,
 				9218053816FBFB1C00A7CC2B /* vPassThrough.glsl in CopyFiles */,
+				92AAFF2116FDE5A900C1F985 /* vFragD.glsl in CopyFiles */,
 				9218053616FBFB0900A7CC2B /* vertex_shader.vp in CopyFiles */,
 				9218053016FBF98900A7CC2B /* fPassThrough.glsl in CopyFiles */,
 			);
@@ -52,6 +62,14 @@
 		9218053216FBFAE300A7CC2B /* nonphoto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nonphoto.c; sourceTree = "<group>"; };
 		9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vnonphoto.glsl; sourceTree = "<group>"; };
 		9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vPassThrough.glsl; sourceTree = "<group>"; };
+		92AAFF1916FDE4EB00C1F985 /* vFragD.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = vFragD.glsl; sourceTree = "<group>"; };
+		92AAFF1A16FDE4F000C1F985 /* fD.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = fD.glsl; sourceTree = "<group>"; };
+		92AAFF1B16FDE4FB00C1F985 /* cubetexshader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cubetexshader.c; sourceTree = "<group>"; };
+		92AAFF2316FDE66D00C1F985 /* vmesh.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = vmesh.glsl; sourceTree = "<group>"; };
+		92AAFF2416FDE67300C1F985 /* mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mesh.c; sourceTree = "<group>"; };
+		92AAFF2816FDE74C00C1F985 /* bumptex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bumptex.c; path = BumpMap/bumptex.c; sourceTree = "<group>"; };
+		92AAFF2A16FDE75600C1F985 /* fBump3.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; name = fBump3.glsl; path = BumpMap/fBump3.glsl; sourceTree = "<group>"; };
+		92AAFF2B16FDE75600C1F985 /* vBump.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; name = vBump.glsl; path = BumpMap/vBump.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,18 +108,13 @@
 		5624B27116FB99A40032B5E6 /* SimpleShaderCpp */ = {
 			isa = PBXGroup;
 			children = (
+				92AAFF2716FDE74300C1F985 /* BumpMap */,
+				92AAFF2216FDE65B00C1F985 /* Mesh */,
+				92AAFF1E16FDE56300C1F985 /* old */,
+				92AAFF1D16FDE53600C1F985 /* Wave */,
+				92AAFF1816FDE4D800C1F985 /* Cubemap */,
 				9218053116FBFACC00A7CC2B /* Cartoon */,
-				5624B27216FB99A40032B5E6 /* main.cpp */,
-				9218052616FBEEF200A7CC2B /* color_shader.fp */,
-				9218052716FBEEF300A7CC2B /* fPassThrough.glsl */,
-				9218052816FBEEF300A7CC2B /* vertex_shader.vp */,
-				9218052916FBEEF300A7CC2B /* vwave.glsl */,
-				9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */,
-				9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */,
-				9218051616FBEB9A00A7CC2B /* wave.c */,
-				5624B27C16FB9B190032B5E6 /* shader_prog.h */,
 				5624B27416FB99A40032B5E6 /* SimpleShaderCpp.1 */,
-				5624B27B16FB99DA0032B5E6 /* shader_prog */,
 			);
 			path = SimpleShaderCpp;
 			sourceTree = "<group>";
@@ -110,8 +123,61 @@
 			isa = PBXGroup;
 			children = (
 				9218053216FBFAE300A7CC2B /* nonphoto.c */,
+				9218052716FBEEF300A7CC2B /* fPassThrough.glsl */,
+				9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */,
+				9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */,
 			);
 			name = Cartoon;
+			sourceTree = "<group>";
+		};
+		92AAFF1816FDE4D800C1F985 /* Cubemap */ = {
+			isa = PBXGroup;
+			children = (
+				92AAFF1B16FDE4FB00C1F985 /* cubetexshader.c */,
+				92AAFF1A16FDE4F000C1F985 /* fD.glsl */,
+				92AAFF1916FDE4EB00C1F985 /* vFragD.glsl */,
+			);
+			name = Cubemap;
+			sourceTree = "<group>";
+		};
+		92AAFF1D16FDE53600C1F985 /* Wave */ = {
+			isa = PBXGroup;
+			children = (
+				9218051616FBEB9A00A7CC2B /* wave.c */,
+				9218052916FBEEF300A7CC2B /* vwave.glsl */,
+			);
+			name = Wave;
+			sourceTree = "<group>";
+		};
+		92AAFF1E16FDE56300C1F985 /* old */ = {
+			isa = PBXGroup;
+			children = (
+				5624B27216FB99A40032B5E6 /* main.cpp */,
+				5624B27B16FB99DA0032B5E6 /* shader_prog */,
+				9218052616FBEEF200A7CC2B /* color_shader.fp */,
+				9218052816FBEEF300A7CC2B /* vertex_shader.vp */,
+				5624B27C16FB9B190032B5E6 /* shader_prog.h */,
+			);
+			name = old;
+			sourceTree = "<group>";
+		};
+		92AAFF2216FDE65B00C1F985 /* Mesh */ = {
+			isa = PBXGroup;
+			children = (
+				92AAFF2416FDE67300C1F985 /* mesh.c */,
+				92AAFF2316FDE66D00C1F985 /* vmesh.glsl */,
+			);
+			name = Mesh;
+			sourceTree = "<group>";
+		};
+		92AAFF2716FDE74300C1F985 /* BumpMap */ = {
+			isa = PBXGroup;
+			children = (
+				92AAFF2A16FDE75600C1F985 /* fBump3.glsl */,
+				92AAFF2B16FDE75600C1F985 /* vBump.glsl */,
+				92AAFF2816FDE74C00C1F985 /* bumptex.c */,
+			);
+			name = BumpMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9218053316FBFAE300A7CC2B /* nonphoto.c in Sources */,
+				928D622716FF62E100C35551 /* mesh.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
