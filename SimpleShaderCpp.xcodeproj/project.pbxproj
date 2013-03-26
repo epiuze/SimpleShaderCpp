@@ -15,7 +15,14 @@
 		9218053616FBFB0900A7CC2B /* vertex_shader.vp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218052816FBEEF300A7CC2B /* vertex_shader.vp */; };
 		9218053716FBFB1500A7CC2B /* vnonphoto.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */; };
 		9218053816FBFB1C00A7CC2B /* vPassThrough.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */; };
-		928D622716FF62E100C35551 /* mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 92AAFF2416FDE67300C1F985 /* mesh.c */; };
+		9245F6CC1701BEDB005A5441 /* ShaderUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 9245F6CA1701BEDB005A5441 /* ShaderUtil.c */; };
+		9245F6D01701BFDA005A5441 /* laser.c in Sources */ = {isa = PBXBuildFile; fileRef = 9245F6CF1701BFDA005A5441 /* laser.c */; };
+		9245F6D31701C3DC005A5441 /* laser.fp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9245F6CE1701BF72005A5441 /* laser.fp */; };
+		9245F6D41701C429005A5441 /* passThrough.fp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9245F6D11701C10B005A5441 /* passThrough.fp */; };
+		9245F6D51701C429005A5441 /* passThrough.vp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9245F6D21701C10B005A5441 /* passThrough.vp */; };
+		9245F6D71701C7E4005A5441 /* lump.fp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9245F6D61701C7B5005A5441 /* lump.fp */; };
+		9245F6D91701C870005A5441 /* texture.fp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9245F6D81701C869005A5441 /* texture.fp */; };
+		9245F6DB1701C94D005A5441 /* circulars.fp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9245F6DA1701C949005A5441 /* circulars.fp */; };
 		92AAFF2016FDE5A400C1F985 /* fD.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92AAFF1A16FDE4F000C1F985 /* fD.glsl */; };
 		92AAFF2116FDE5A900C1F985 /* vFragD.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92AAFF1916FDE4EB00C1F985 /* vFragD.glsl */; };
 		92AAFF2616FDE67D00C1F985 /* vmesh.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92AAFF2316FDE66D00C1F985 /* vmesh.glsl */; };
@@ -31,11 +38,17 @@
 			dstSubfolderSpec = 7;
 			files = (
 				9218052F16FBF98500A7CC2B /* vwave.glsl in CopyFiles */,
+				9245F6DB1701C94D005A5441 /* circulars.fp in CopyFiles */,
 				92AAFF2C16FDE75900C1F985 /* vBump.glsl in CopyFiles */,
 				92AAFF2D16FDE75C00C1F985 /* fBump3.glsl in CopyFiles */,
 				92AAFF2616FDE67D00C1F985 /* vmesh.glsl in CopyFiles */,
+				9245F6D91701C870005A5441 /* texture.fp in CopyFiles */,
+				9245F6D71701C7E4005A5441 /* lump.fp in CopyFiles */,
 				9218053716FBFB1500A7CC2B /* vnonphoto.glsl in CopyFiles */,
+				9245F6D31701C3DC005A5441 /* laser.fp in CopyFiles */,
 				92AAFF2016FDE5A400C1F985 /* fD.glsl in CopyFiles */,
+				9245F6D41701C429005A5441 /* passThrough.fp in CopyFiles */,
+				9245F6D51701C429005A5441 /* passThrough.vp in CopyFiles */,
 				9218053816FBFB1C00A7CC2B /* vPassThrough.glsl in CopyFiles */,
 				92AAFF2116FDE5A900C1F985 /* vFragD.glsl in CopyFiles */,
 				9218053616FBFB0900A7CC2B /* vertex_shader.vp in CopyFiles */,
@@ -62,6 +75,15 @@
 		9218053216FBFAE300A7CC2B /* nonphoto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nonphoto.c; sourceTree = "<group>"; };
 		9218053416FBFAFD00A7CC2B /* vnonphoto.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vnonphoto.glsl; sourceTree = "<group>"; };
 		9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vPassThrough.glsl; sourceTree = "<group>"; };
+		9245F6CA1701BEDB005A5441 /* ShaderUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ShaderUtil.c; sourceTree = "<group>"; };
+		9245F6CB1701BEDB005A5441 /* ShaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderUtil.h; sourceTree = "<group>"; };
+		9245F6CE1701BF72005A5441 /* laser.fp */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = laser.fp; sourceTree = "<group>"; };
+		9245F6CF1701BFDA005A5441 /* laser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = laser.c; sourceTree = "<group>"; };
+		9245F6D11701C10B005A5441 /* passThrough.fp */ = {isa = PBXFileReference; lastKnownFileType = text; path = passThrough.fp; sourceTree = "<group>"; };
+		9245F6D21701C10B005A5441 /* passThrough.vp */ = {isa = PBXFileReference; lastKnownFileType = text; path = passThrough.vp; sourceTree = "<group>"; };
+		9245F6D61701C7B5005A5441 /* lump.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lump.fp; sourceTree = "<group>"; };
+		9245F6D81701C869005A5441 /* texture.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texture.fp; sourceTree = "<group>"; };
+		9245F6DA1701C949005A5441 /* circulars.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circulars.fp; sourceTree = "<group>"; };
 		92AAFF1916FDE4EB00C1F985 /* vFragD.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = vFragD.glsl; sourceTree = "<group>"; };
 		92AAFF1A16FDE4F000C1F985 /* fD.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = fD.glsl; sourceTree = "<group>"; };
 		92AAFF1B16FDE4FB00C1F985 /* cubetexshader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cubetexshader.c; sourceTree = "<group>"; };
@@ -108,6 +130,8 @@
 		5624B27116FB99A40032B5E6 /* SimpleShaderCpp */ = {
 			isa = PBXGroup;
 			children = (
+				9245F6CD1701BEE1005A5441 /* Experiments */,
+				9245F6C91701BE99005A5441 /* Shader */,
 				92AAFF2716FDE74300C1F985 /* BumpMap */,
 				92AAFF2216FDE65B00C1F985 /* Mesh */,
 				92AAFF1E16FDE56300C1F985 /* old */,
@@ -128,6 +152,29 @@
 				9218053516FBFAFD00A7CC2B /* vPassThrough.glsl */,
 			);
 			name = Cartoon;
+			sourceTree = "<group>";
+		};
+		9245F6C91701BE99005A5441 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				9245F6D11701C10B005A5441 /* passThrough.fp */,
+				9245F6D21701C10B005A5441 /* passThrough.vp */,
+				9245F6CA1701BEDB005A5441 /* ShaderUtil.c */,
+				9245F6CB1701BEDB005A5441 /* ShaderUtil.h */,
+			);
+			name = Shader;
+			sourceTree = "<group>";
+		};
+		9245F6CD1701BEE1005A5441 /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				9245F6CF1701BFDA005A5441 /* laser.c */,
+				9245F6CE1701BF72005A5441 /* laser.fp */,
+				9245F6D61701C7B5005A5441 /* lump.fp */,
+				9245F6D81701C869005A5441 /* texture.fp */,
+				9245F6DA1701C949005A5441 /* circulars.fp */,
+			);
+			name = Experiments;
 			sourceTree = "<group>";
 		};
 		92AAFF1816FDE4D800C1F985 /* Cubemap */ = {
@@ -231,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				928D622716FF62E100C35551 /* mesh.c in Sources */,
+				9245F6CC1701BEDB005A5441 /* ShaderUtil.c in Sources */,
+				9245F6D01701BFDA005A5441 /* laser.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
