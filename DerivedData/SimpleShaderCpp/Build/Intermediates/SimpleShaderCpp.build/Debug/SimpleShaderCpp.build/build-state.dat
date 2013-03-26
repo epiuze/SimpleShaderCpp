@@ -63,12 +63,12 @@ t1362965647
 s12425
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/ShaderUtil.o
-t1364299060
+t1364302700
 s8584
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/SimpleShaderCpp.LinkFileList
-c0000000051518C6C000000000000018F
-t1364298860
+c0000000051519B6C000000000000018F
+t1364302700
 s399
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/bumptex.o
@@ -80,8 +80,8 @@ t1364045482
 s15424
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.o
-t1364302539
-s15184
+t1364304388
+s15072
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/main.o
 t2
@@ -100,12 +100,12 @@ t1364046144
 s15872
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp
-t1364302539
-s24268
+t1364304388
+s24132
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp
-t1364302353
-s841
+t1364304205
+s843
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/fBump3.glsl
 t1364045793
@@ -120,24 +120,24 @@ t1363919453
 s99
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/laser.fp
-t1364299603
+t1364302700
 s2574
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/lump.fp
-t1364299887
+t1364302700
 s17541
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.fp
-t1364298928
+t1364302700
 s99
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vp
-t1364299935
+t1364302700
 s403
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp
-t1364300175
-s706
+t1364304476
+s691
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/usr/share/man/man1/fPassThrough.glsl
 t1363919405
@@ -197,22 +197,22 @@ t1364045754
 s1054
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/ShaderUtil.c
-c0000000051518D340000000000000E87
-t1364299060
+c0000000051519B6C0000000000000E87
+t1364302700
 s3719
 i<stdio.h>
 i<stdlib.h>
 i"ShaderUtil.h"
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/ShaderUtil.h
-c00000000514E73F60000000000000215
-t1364095990
+c0000000051519B6C0000000000000215
+t1364302700
 s533
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/circulars.fp
-c0000000051519A100000000000000349
-t1364302352
-s841
+c000000005151A14C000000000000034B
+t1364304204
+s843
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/cubetexshader.c
 c00000000514DAEAA0000000000001A0D
@@ -235,18 +235,18 @@ t1363915843
 s99
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.c
-c0000000051519AE10000000000001919
-t1364302561
-s6425
+c000000005151A2040000000000001990
+t1364304388
+s6544
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.fp
-c0000000051518F2A0000000000000A0E
-t1364299562
+c0000000051519B6C0000000000000A0E
+t1364302700
 s2574
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/lump.fp
-c000000005151906F0000000000004485
-t1364299887
+c0000000051519B6C0000000000004485
+t1364302700
 s17541
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/main.cpp
@@ -275,19 +275,19 @@ i<GLUT/glut.h>
 i<math.h>
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/passThrough.fp
-c00000000514BB4430000000000000063
-t1363915843
+c0000000051519B6C0000000000000063
+t1364302700
 s99
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/passThrough.vp
-c000000005151909C0000000000000193
-t1364299932
+c0000000051519B6C0000000000000193
+t1364302700
 s403
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/texture.fp
-c000000005151918F00000000000002C2
-t1364300175
-s706
+c000000005151A27A00000000000002B2
+t1364304506
+s690
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/vFragD.glsl
 c00000000514DAD3700000000000000E5
@@ -363,7 +363,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese57c0562d201b741^861d0662d201b741^---0#1#0#--18"Check dependencies36"82E5027B-4E00-4704-8A95-339BDC31C9BE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfa7b8dfad901b741^fe0d8efad901b741^---0#1#0#--18"Check dependencies36"FEF18C3E-5A2E-4E64-BE7C-B81CA15D16D2-
 
 CCompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/ShaderUtil.o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/ShaderUtil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s385991860.659137
@@ -405,8 +405,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/cubetexshader.cb64a802ae6fdb641^3f1f9d2ae6fdb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/cubetexshader.c0000000000000000^3708"CompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/cubetexshader.o SimpleShaderCpp/cubetexshader.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-generated-files.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-own-target-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-all-target-headers.hmap -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-project-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources/x86_64 -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources -F/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -MMD -MT dependencies -MF /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/cubetexshader.d --serialize-diagnostics /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/cubetexshader.dia -c /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/cubetexshader.c -o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/cubetexshader.o36"3368F070-C48E-4BBF-AEBA-53D9FDF025BB-
 
 CCompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s385995362.027533
-e385995362.209742
+s385997188.671753
+e385997188.909105
 r1
 xCompileC
 xDerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.o
@@ -415,7 +415,7 @@ xnormal
 xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.cfe2b0762d201b741^abb03562d201b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.c0000000000000000^3660"CompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.o SimpleShaderCpp/laser.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-generated-files.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-own-target-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-all-target-headers.hmap -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-project-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources/x86_64 -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources -F/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -MMD -MT dependencies -MF /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.d --serialize-diagnostics /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.dia -c /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.c -o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.o36"51BBD678-BB8A-46EE-A13D-CF499C1290B6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.c8b16ac84d901b741^6dc7e884d901b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.c0000000000000000^3660"CompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.o SimpleShaderCpp/laser.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-generated-files.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-own-target-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-all-target-headers.hmap -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-project-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources/x86_64 -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources -F/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -MMD -MT dependencies -MF /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.d --serialize-diagnostics /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.dia -c /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/laser.c -o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/laser.o36"D28FB311-93FA-4A81-ACF6-E185B7634525-
 
 CCompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/main.o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -464,14 +464,14 @@ o1 warning generated.
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c9351ddc0e8fdb641^fd4ef3c0e8fdb641^-295"/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c:236:9: warning: implicit declaration of function '_NSGetExecutablePath' is invalid in C99 [-Wimplicit-function-declaration]    if (_NSGetExecutablePath(path, &size) == 0)        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@73"Implicit declaration of function '_NSGetExecutablePath' is invalid in C99-385738944#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@107"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c0000000000000000^235#8#235#8#6012#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@107"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c0000000000000000^3654"CompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.o SimpleShaderCpp/wave.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-generated-files.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-own-target-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-all-target-headers.hmap -iquote /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/SimpleShaderCpp-project-headers.hmap -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources/x86_64 -I/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/DerivedSources -F/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -MMD -MT dependencies -MF /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.d --serialize-diagnostics /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.dia -c /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/wave.c -o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/wave.o36"CD3763B1-4BC5-46A4-84C1-12DA0CAB2653-
 
 CLd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp normal x86_64
-s385995362.216579
-e385995362.249053
+s385997188.915961
+e385997188.950278
 r1
 xLd
 x/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp008c3762d201b741^dbc23f62d201b741^---0#0#0#--1109"Ld DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp normal x86_64    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -F/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -filelist /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/SimpleShaderCpp.LinkFileList -mmacosx-version-min=10.7 -framework CoreFoundation -framework GLUT -framework OpenGL -o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp36"99B48337-564F-4C63-950F-ACEB5CCAE2AD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp9695ea84d901b741^d7a5f684d901b741^---0#0#0#--1109"Ld DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp normal x86_64    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -F/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug -filelist /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/SimpleShaderCpp.LinkFileList -mmacosx-version-min=10.7 -framework CoreFoundation -framework GLUT -framework OpenGL -o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/SimpleShaderCpp36"CE69222F-AEE3-459B-99F4-A23FF7820A0F-
 
 CPBXCp SimpleShaderCpp/BumpMap/fBump3.glsl DerivedData/SimpleShaderCpp/Build/Products/Debug/fBump3.glsl
 s385738593.528436
@@ -492,13 +492,13 @@ xDerivedData/SimpleShaderCpp/Build/Products/Debug/vBump.glsl
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/vBump.glsl1b128761e7fdb641^8b6b8861e7fdb641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/vBump.glsl000000000080d041^511"PBXCp SimpleShaderCpp/BumpMap/vBump.glsl DerivedData/SimpleShaderCpp/Build/Products/Debug/vBump.glsl    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/BumpMap/vBump.glsl /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"60DE8A82-AB44-4EDB-ADBE-23D89F9991C0-
 
 CPBXCp SimpleShaderCpp/circulars.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp
-s385995153.330303
-e385995153.335188
+s385997005.102144
+e385997005.105813
 r1
 xPBXCp
 xSimpleShaderCpp/circulars.fp
 xDerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp55a25491d101b741^95d85591d101b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp0000000000000000^501"PBXCp SimpleShaderCpp/circulars.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/circulars.fp /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"4CF257A8-AD3E-4A4C-88A2-DC151049A3CC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp2d411acdd801b741^e2391bcdd801b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp0000000000000000^501"PBXCp SimpleShaderCpp/circulars.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/circulars.fp    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/circulars.fp /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"9586A2ED-3983-4994-8FA7-A3F7809150FF-
 
 CPBXCp SimpleShaderCpp/fD.glsl DerivedData/SimpleShaderCpp/Build/Products/Debug/fD.glsl
 s385738155.123611
@@ -573,13 +573,13 @@ xDerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vp
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vp23d87c1fc801b741^7ee57d1fc801b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vp0000000000000000^507"PBXCp SimpleShaderCpp/passThrough.vp DerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vp    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/passThrough.vp /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"5DBBB486-C6A9-41B6-A341-EB839C6C72B8-
 
 CPBXCp SimpleShaderCpp/texture.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp
-s385992975.899180
-e385992975.906049
+s385997306.577131
+e385997306.581109
 r1
 xPBXCp
 xSimpleShaderCpp/texture.fp
 xDerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp3144e60fc901b741^6bf3e70fc901b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp0000000000000000^495"PBXCp SimpleShaderCpp/texture.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/texture.fp /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"DDD321FA-09E2-47C4-AEC9-871400E6D92E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp0eda93fad901b741^fed494fad901b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp0000000000000000^495"PBXCp SimpleShaderCpp/texture.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/texture.fp /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"2591A987-BDEA-47CE-A37B-7BCA808B7D56-
 
 CPBXCp SimpleShaderCpp/vFragD.glsl DerivedData/SimpleShaderCpp/Build/Products/Debug/vFragD.glsl
 s385738155.125425

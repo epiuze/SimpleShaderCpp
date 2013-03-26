@@ -21,10 +21,10 @@ vec3 pt(float x, float y)
 void main( void ) {
 
 //    resolution = vec2(400, 400);
-//	vec2 position = ( gl_FragCoord.xy / resolution.xy );
+	vec2 position = ( gl_FragCoord.xy / resolution.xy );
 
-    vec2 res = vec2(400, 400);
-	vec2 position = ( gl_FragCoord.xy / res.xy );
+//    vec2 res = vec2(400, 400);
+//	vec2 position = ( gl_FragCoord.xy / res.xy );
 
 	float r = 0.;
 	float g = 0.;

@@ -21,10 +21,9 @@
 #define false 0
 #define true 1
 
-GLuint width = 400;
+GLuint width = 800;
 GLuint height= 400;
 
-GLuint resolution[2] = { 400, 400 };
 GLfloat curxy[2];
 
 float angle = 0.0, axis[3], trans[3];
@@ -101,14 +100,16 @@ void trackball_ptov(int x, int y, int width, int height, float v[3]) {
 void mouseMotionPassive(int x, int y) {
     curxy[0] = x;
     curxy[1] = y;
+    
+    printf("(%.1f, %.1f)\n", curxy[0], curxy[1]);
 }
 
 void mouseMotion(int x, int y) {
     float curPos[3], dx, dy, dz;
     
-    printf("(%i, %i)\n", x, y);
-    curxy[0] = x;
-    curxy[1] = y;
+//    printf("(%i, %i)\n", x, y);
+//    curxy[0] = x;
+//    curxy[1] = y;
     
     if(trackingMouse)
     {
@@ -196,8 +197,9 @@ void draw() {
     
 //    glUniform2iv(uniform_mouse, 1, (const GLint*) curxy);
 //    glUniform2iv(uniform_resolution, 1, (const GLint*) resolution);
-    glUniform2f(uniform_mouse, curxy[0], curxy[1]);
-    glUniform2i(uniform_resolution, resolution[0], resolution[1]);
+    glUniform2f(uniform_mouse, curxy[0] / width, 1 - curxy[1] / height);
+//    glUniform2f(uniform_resolution, width, height);
+    glUniform2f(uniform_resolution, (float) width, (float) height);
     
     time += 0.01f;
     
@@ -217,7 +219,8 @@ void init() {
     glEnable(GL_DEPTH_TEST);
     
 //    shaderProgram = initShader("./passThrough.vp", "./laser.fp");
-    shaderProgram = initShader("./passThrough.vp", "./circulars.fp");
+//    shaderProgram = initShader("./passThrough.vp", "./circulars.fp");
+    shaderProgram = initShader("./passThrough.vp", "./texture.fp");
     uniform_time = glGetUniformLocation(shaderProgram, "time");
     uniform_mouse = glGetUniformLocation(shaderProgram, "mouse");
     uniform_resolution = glGetUniformLocation(shaderProgram, "resolution");
@@ -228,9 +231,6 @@ static void reshape(int w, int h)
     // Update dimension
     width = w;
     height = h;
-    
-    resolution[0] = w;
-    resolution[1] = h;
     
 //    glViewport (0, 0, (GLsizei)w, (GLsizei)h);
 //    glMatrixMode (GL_PROJECTION);

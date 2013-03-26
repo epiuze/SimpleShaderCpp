@@ -29,5 +29,16 @@
          landmarkName = "display()"
          landmarkType = "7">
       </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "SimpleShaderCpp/laser.fp"
+         timestampString = "385997113.690376"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "40"
+         endingLineNumber = "40">
+      </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

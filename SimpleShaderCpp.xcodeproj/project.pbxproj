@@ -170,9 +170,9 @@
 			children = (
 				9245F6CF1701BFDA005A5441 /* laser.c */,
 				9245F6CE1701BF72005A5441 /* laser.fp */,
+				9245F6DA1701C949005A5441 /* circulars.fp */,
 				9245F6D61701C7B5005A5441 /* lump.fp */,
 				9245F6D81701C869005A5441 /* texture.fp */,
-				9245F6DA1701C949005A5441 /* circulars.fp */,
 			);
 			name = Experiments;
 			sourceTree = "<group>";

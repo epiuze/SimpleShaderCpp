@@ -10,7 +10,7 @@ uniform vec2 resolution;
 
 #define PI 3.14159
 #define TWO_PI (PI*2.0)
-#define N 7.0
+#define N 6.0
 
 void main(void) 
 {
@@ -26,7 +26,7 @@ void main(void)
 	for(float i = 0.0; i < N; i++) 
 	{
 	  	float a = i * (TWO_PI/N) * 61.95;
-		col += cos(TWO_PI*(v.y * cos(a) + v.x * sin(a) /*+ mouse.y +i*mouse.x*/ + sin(time*0.004)*100.0 ));
+		col += cos(TWO_PI*mouse.x *(v.y * cos(a) + v.x * sin(a) + sin(time*0.004)*100.0 ));
 	}
 	
 	col /= 3.0;
