@@ -20,9 +20,13 @@
 #define bool int
 #define false 0
 #define true 1
+#define INIT_WIDTH 800
+#define INIT_HEIGHT 400
 
-GLuint width = 800;
-GLuint height= 400;
+GLuint width = INIT_WIDTH;
+GLuint height= INIT_HEIGHT;
+GLuint fwidth = INIT_WIDTH;
+GLuint fheight= INIT_HEIGHT;
 
 GLfloat curxy[2];
 
@@ -198,10 +202,11 @@ void draw() {
 //    glUniform2iv(uniform_mouse, 1, (const GLint*) curxy);
 //    glUniform2iv(uniform_resolution, 1, (const GLint*) resolution);
     glUniform2f(uniform_mouse, curxy[0] / width, 1 - curxy[1] / height);
+    
 //    glUniform2f(uniform_resolution, width, height);
     glUniform2f(uniform_resolution, (float) width, (float) height);
     
-    time += 0.01f;
+    time += 0.005f + (1-curxy[1] / height) / 25.0f;
     
     // Done!
     glutSwapBuffers();
@@ -247,11 +252,39 @@ static void reshape(int w, int h)
     glutPostRedisplay();
 }
 
+bool fullscreen = false;
+void toggleFullscreen() {
+    fullscreen = !fullscreen;
+    
+    if (fullscreen) {
+        fwidth = width;
+        fheight = height;
+        
+        int w = glutGet(GLUT_SCREEN_WIDTH);
+        int h = glutGet(GLUT_SCREEN_HEIGHT);
+        
+        printf("Switching to fullscreen (%i, %i)\n", w, h);
+        
+//        width = w;
+//        height = h;
+//        
+//        glutInitWindowSize(w, h);
+        glutFullScreen();
+    }
+    else {
+        glutReshapeWindow(fwidth, fheight);        /* Restore us */
+        glutPositionWindow(0,0);
+    }
+}
+
 static void keyboard(unsigned char key, int x, int y)
 {
     switch (key) {
         case 27:
         case 'Q':
+        case 'f':
+            toggleFullscreen();
+            break;
         case 'q':
             exit(0);
             break;
