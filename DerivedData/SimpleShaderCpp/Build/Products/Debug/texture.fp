@@ -7,13 +7,44 @@ precision mediump float;
 uniform float time;
 uniform vec2 mouse;
 uniform vec2 resolution;
+vec4 color;
 
 #define PI 3.14159
 #define TWO_PI (PI*2.0)
 #define N 6.0
 
+vec4 drawSphere(float x, float y)
+{
+    // This is the metaball radius
+	float r = length(gl_FragCoord.xy - vec2(x, y));
+
+	float size = 12.0;
+    float col = pow(size / r, 1.5);
+	return vec4(vec3(col / 1.0, col / 1.0, col / 1.0), 1.0);
+}
+
+vec4 drawHorizontal(float x, float y, float size)
+{
+    // This is the metaline radius
+    float r = abs(gl_FragCoord.y - y);
+
+    float col = pow(size / r, 2.0);
+	return vec4(vec3(col / 1.0, col / 4.0, col / 1.5), 1.0);
+}
+
+vec4 drawVertical(float x, float y, float size)
+{
+    // This is the metaline radius
+    float r = abs(gl_FragCoord.x - x);
+
+    float col = pow(size / r, 2.0);
+	return vec4(vec3(col / 1.0, col / 4.0, col / 1.5), 1.0);
+}
+
 void main(void) 
 {
+    vec2 scenter = vec2(resolution.x / 2.0, resolution.y / 2.0);
+
 	vec2 center = (gl_FragCoord.xy);
 	center.x=-100.12*sin(time/200.0);
 	center.y=-100.12*cos(time/200.0);
@@ -31,5 +62,21 @@ void main(void)
 	
 	col /= 3.0;
 
-	gl_FragColor = vec4(cos(time) * col*1.0, -col*1.0 + sin(time),-col*4.0, 1.0);
+//    color += drawSphere(scenter.x, scenter.y);
+//    float t = cos(time) * TWO_PI;
+    float rad = 50.0;
+    vec2 p = vec2(mouse.x * resolution.x, mouse.y * resolution.y);
+    color = drawSphere(p.x + rad * cos(0.1 * time), p.y + rad * sin(0.1 * time));
+
+//    if (length(color.xyz) < 0.1)
+//    {
+        color += vec4(cos(0.5*time) * col*1.0, -col*1.0 + sin(time),-col*4.0, 1.0);
+//    }
+
+    float lsize = 10.0;
+    color += drawHorizontal(p.x, p.y, lsize);
+    color += drawVertical(p.x, p.y, lsize);
+
+	gl_FragColor = color;
 }
+

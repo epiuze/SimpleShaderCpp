@@ -106,8 +106,8 @@ t1364903419
 s403
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp
-t1364905378
-s702
+t1366029352
+s1928
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/vBump.glsl
 t1364903419
@@ -206,9 +206,9 @@ t1364905298
 s7347
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/texture.fp
-c00000000515ACDD000000000000002CA
-t1364905424
-s714
+c00000000516BF42F000000000000078A
+t1366029359
+s1930
 
 N/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/vFragD.glsl
 c00000000514DAD3700000000000000E5
@@ -251,7 +251,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies58ff1751050bb741^b1891851050bb741^---0#1#0#--18"Check dependencies36"40E7F82F-C695-4DF9-8C63-051C452E6EFF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1efcf4af2b1cb741^6c94f5af2b1cb741^---0#1#0#--18"Check dependencies36"F2F16236-61E7-4A5F-992E-583F6D33A0A3-
 
 CCompileC DerivedData/SimpleShaderCpp/Build/Intermediates/SimpleShaderCpp.build/Debug/SimpleShaderCpp.build/Objects-normal/x86_64/ShaderUtil.o /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/ShaderUtil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s386596218.601399
@@ -384,13 +384,13 @@ xDerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vp
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vpc2164b7bfd0ab741^4b024c7bfd0ab741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vp000000000080d041^507"PBXCp SimpleShaderCpp/passThrough.vp DerivedData/SimpleShaderCpp/Build/Products/Debug/passThrough.vp    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/passThrough.vp /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"8E48D148-870E-474E-BB99-643B836F0853-
 
 CPBXCp SimpleShaderCpp/texture.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp
-s386598225.132826
-e386598225.136539
+s387722159.980892
+e387722159.984299
 r1
 xPBXCp
 xSimpleShaderCpp/texture.fp
 xDerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fpc7122251050bb741^45f52251050bb741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp0000000000000000^495"PBXCp SimpleShaderCpp/texture.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/texture.fp /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"93148D14-F937-4776-B3B1-DBB657091A3E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp9d2efbaf2b1cb741^cafcfbaf2b1cb741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp0000000000000000^495"PBXCp SimpleShaderCpp/texture.fp DerivedData/SimpleShaderCpp/Build/Products/Debug/texture.fp    cd /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/SimpleShaderCpp/texture.fp /Volumes/Cortex/Users/piuze/Documents/workspace_work/SimpleShaderCpp/DerivedData/SimpleShaderCpp/Build/Products/Debug36"A3E65F3D-B961-4F9D-9242-A83CC431FC04-
 
 CPBXCp SimpleShaderCpp/vFragD.glsl DerivedData/SimpleShaderCpp/Build/Products/Debug/vFragD.glsl
 s386596219.298309
